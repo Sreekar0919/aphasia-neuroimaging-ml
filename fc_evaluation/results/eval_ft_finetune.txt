@@ -1,0 +1,16 @@
+
+Held-out FC RMSE (lower is better)
+  mean_fc         0.2758
+  group_mean_fc   0.2804
+  vae_recon       0.2716
+  vae_gen_draw    0.5131
+  vae_gen_mean    0.3207
+
+Out-of-fold WAB-AQ prediction
+  train_mean      RMSE 25.40   R2 -0.071
+  demo_only       RMSE 25.40   R2 -0.071
+  latent+demo     RMSE 25.18   R2 -0.052
+  fc_real         RMSE 26.56   R2 -0.171
+  fc_recon        RMSE 25.78   R2 -0.103
+  fc_gen_draw     RMSE 28.16   R2 -0.316
+  fc_gen_mean     RMSE 28.15   R2 -0.315

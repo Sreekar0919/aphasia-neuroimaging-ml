@@ -1,0 +1,7 @@
+80 subjects, 76 ROIs valid in all, 2850 edges
+demographics     R2 -0.048 +/- 0.021
+lesion           R2 +0.373 +/- 0.025
+demo+lesion      R2 +0.319 +/- 0.038
+FC               R2 +0.138 +/- 0.043
+demo+lesion+FC   R2 +0.147 +/- 0.044
+lesion then FC   R2 +0.417 +/- 0.040

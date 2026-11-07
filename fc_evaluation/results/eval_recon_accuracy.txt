@@ -1,0 +1,8 @@
+model                          r    RMSE   Euclid   skill
+mean_fc                    0.623  0.2758    16.31  +0.000
+abide_ft/reconstruct       0.610  0.2709    16.05  +0.035
+abide_ft/generate          0.465  0.3573    21.32  -0.679
+arc_ft/reconstruct         0.619  0.2689    15.95  +0.049
+arc_ft/generate            0.452  0.3641    21.68  -0.743
+pca16/reconstruct          0.684  0.2442    14.46  +0.216
+pca16/generate             0.605  0.2817    16.68  -0.043

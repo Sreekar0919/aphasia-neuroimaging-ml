@@ -1,0 +1,18 @@
+ABIDE adults: 312  ARC: 93 (WAB-AQ 5-100)
+FC RMSE (held-out OSF)
+  mean_fc                     0.2758
+  group_mean_fc               0.2804
+  abide/recon                 0.2705
+  abide/gen_mean              0.3527
+  abide_wab/recon             0.2706
+  abide_wab/gen_mean          0.3621
+  abide_wab/recon_wab_shuffled0.2706
+  arc/recon                   0.2686
+  arc/gen_mean                0.3668
+  arc_wab/recon               0.2684
+  arc_wab/gen_mean            0.3779
+  arc_wab/recon_wab_shuffled  0.2683
+WAB-AQ by analysis-by-synthesis (out-of-fold)
+  abide_wab   RMSE 51.99  R2 -3.486
+  arc_wab     RMSE 51.86  R2 -3.463
+  train_mean  RMSE 24.55  R2 +0.000

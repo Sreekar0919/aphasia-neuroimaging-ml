@@ -1,0 +1,9 @@
+ARC patients with FC + lesion maps: 93; 1830 FC edges; 119 lesioned JHU regions
+
+generated from                            r  skill vs mean FC  perm p
+nothing (mean FC)                     0.618            +0.000
+demographics + WAB                    0.622            +0.013   0.010
+diagnosis + demographics + WAB        0.622            +0.012   0.005
+lesion volume                         0.621            +0.003   0.035
+lesion location                       0.631            +0.025   0.005
+location + volume + dx + demo + WAB   0.630            +0.023   0.005
