@@ -1,0 +1,25 @@
+basis pool: ABIDE 999 + ARC 93 + fold; demographic map: ARC 93 + fold; 1830 FC edges
+
+held-out reconstruction           r  min r     R2    RMSE   skill
+mean_fc                       0.623  0.483  0.285  0.2758  +0.000
+uncond_k16                    0.701  0.595  0.488  0.2342  +0.279
+uncond_k100                   0.825  0.761  0.681  0.1853  +0.549
+uncond_k400                   0.914  0.877  0.836  0.1325  +0.769
+uncond_k800                   0.953  0.929  0.908  0.0992  +0.871
+uncond_k996                   0.965  0.947  0.931  0.0860  +0.903
+cond_k16                      0.683  0.522  0.408  0.2516  +0.167
+cond_k100                     0.801  0.690  0.589  0.2097  +0.422
+cond_k400                     0.891  0.821  0.741  0.1660  +0.638
+cond_k800                     0.930  0.851  0.813  0.1409  +0.739
+cond_k996                     0.942  0.860  0.836  0.1320  +0.771
+cond_wab_shuffled             0.930  0.861  0.816  0.1391  +0.745
+cond_demo_shuffled            0.931  0.876  0.818  0.1385  +0.748
+generate_cond                 0.605  0.452  0.257  0.2810  -0.038
+generate_cond_wab_shuffled    0.606  0.474  0.262  0.2799  -0.030
+
+smallest shifted hidden pre-activation: 84.7 (> 0: every ReLU passed its value exactly)
+mean |corr| of first 16 latents with (age, WAB-AQ), training folds:
+  uncond   age 0.202  WAB 0.223
+  cond     age 0.182  WAB 0.246
+FC change (RMSE) from WAB-AQ 20 -> 90 at fixed latent: 0.0556 (between-subject spread, mean-FC RMSE: 0.2758)
+WAB-AQ read back from held-out FC (analysis-by-synthesis, k=800): RMSE 50.2 (predict-mean 24.5), R2 -3.183, r +0.00
